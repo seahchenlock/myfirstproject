@@ -47,13 +47,38 @@ html {
 
   /* Jumbotron */
   .jumbotron{
-    background-image: url("../image/morningtree.jpg");
+    background-image: url("../image/BackgroundPattern.png");
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    color: white;
+    color: black;
+  }
+
+  /* size */
+  .size {
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 10px 10px 10px gray;
+  }
+
+  /* size1 */
+  .size1 {
+    font-size: 30px;
+  }
+
+  /* size2 */
+  .size2 {
+    font-style: italic;
+    font-size: 20px;
+    color: blueviolet;
+  }
+
+  /* image1 */
+  .image1 {
+    width: 50%;
+    height: 50%;
   }
 
   /* Box-sizing */
